@@ -1,5 +1,5 @@
 
-# Get to know Purva Portfolio
+# Get to know Purva
 
 Welcome to the "Get to know Purva" portfolio, showcasing my work, projects, and skills developed over my 5-year career and academic journey. This portfolio provides insights into my professional background, experience, and projects.
 
