@@ -1,5 +1,4 @@
 import me from '../../public/me.png'
-import Link from 'next/link';
 import React from 'react';
 import Image from "next/image";
 import hobbies from '../../public/hobby.png'
