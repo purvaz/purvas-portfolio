@@ -48,11 +48,11 @@ const InfoText = () => {
             <div className="container mx-auto px-10 py-16 flex items-center justify-center min-h-full">
                 <div className="w-1/2 justify-center">
                     <h1 className="text-4xl font-semibold text-center" >
-                        Let's Get in Touch!
+                        Let&apos;s Get in Touch!
                     </h1>
                     <p className="text-gray-600 text-xl text-center py-5">
-                        Whether you're looking to build something awesome, collaborate, or just fancy a good chat, I'm all ears.
-                        Fill out the form below, and I'll get back to you in a jiffy!
+                        Whether you&apos;re looking to build something awesome, collaborate, or just fancy a good chat, I&apos;m all ears.
+                        Fill out the form below, and I&apos;ll get back to you in a jiffy!
                     </p>
                     <div className="flex justify-center">
                         <div className="mx-auto">
@@ -92,10 +92,8 @@ const InfoText = () => {
                     <div className="bg-white p-5 rounded shadow-lg text-center">
                         <p className="text-xl font-semibold">Thank you!</p>
                         <p>Your message has been sent!</p>
-                        <button
-                            className="mt-4 px-4 py-2 bg-green-700 text-white rounded hover:bg-green-600"
-                            onClick={() => setShowAcknowledgment(false)}
-                        >
+                        <button className="mt-4 px-4 py-2 bg-green-700 text-white rounded hover:bg-green-600"
+                            onClick={() => setShowAcknowledgment(false)}>
                             Close
                         </button>
                     </div>

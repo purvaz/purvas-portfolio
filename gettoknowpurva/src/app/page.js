@@ -36,7 +36,7 @@ const Info = () => {
       <div className="container mx-auto px-10 py-16 flex items-center justify-center min-h-full">
         <div className="w-1/2">
           <h1 className="text-4xl font-semibold text-center" >
-            Hey there, I'm Purva!
+            Hey there, I&apos;m Purva!
           </h1>
           <p className="text-gray-600 text-xl text-center py-5">
             I am passionate about coding and building cool things.
@@ -72,7 +72,7 @@ const AboutMeSection = () => {
           A few things about me...
         </h1>
         <p className="text-gray-600 text-xl text-center py-5">
-        Beyond coding, I'm an avid artist who finds solace in painting and photography. I love hiking and exploring new places, and I'm passionate about learning languages. With an outgoing and analytical personality, I'm approachable and reliable. I value honesty and strive to create impactful solutions. I'm a quick learner who embraces challenges, fueled by my belief in the power of knowledge.
+        Beyond coding, I&apos;m an avid artist who finds solace in painting and photography. I love hiking and exploring new places, and I&apos;m passionate about learning languages. With an outgoing and analytical personality, I&apos;m approachable and reliable. I value honesty and strive to create impactful solutions. I&apos;m a quick learner who embraces challenges, fueled by my belief in the power of knowledge.
         </p>
       </div>
     </div>
@@ -87,7 +87,7 @@ const Education = () => {
             A little about my education...
           </h1>
           <p className="text-gray-600 text-xl text-center py-5">
-          I'm proud to hold not one, but two Master's degrees in Computer Science. I earned my first Master's degree at the University of Pune, India, and then went on to secure another from San Francisco State University. And hey, just a little icing on the cake – I happened to do pretty well, with a nearly perfect GPA. With three degrees in my pocket, I'm all set to rock the world of software development and innovation!  🚀📚
+          I&apos;m proud to hold not one, but two Master&apos;s degrees in Computer Science. I earned my first Master&apos;s degree at the University of Pune, India, and then went on to secure another from San Francisco State University. And hey, just a little icing on the cake – I happened to do pretty well, with a nearly perfect GPA. With three degrees in my pocket, I&apos;m all set to rock the world of software development and innovation!  🚀📚
           </p>
         </div>
         <div className="w-1/2 flex justify-center">
