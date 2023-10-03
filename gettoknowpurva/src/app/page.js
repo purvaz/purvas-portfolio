@@ -36,6 +36,7 @@ const Info = () => {
       <div className="container mx-auto px-10 py-16 flex items-center justify-center min-h-full">
         <div className="w-1/2">
           <h1 className="text-4xl font-semibold text-center" >
+            {/* comment */}
             Hey there, I&apos;m Purva!
           </h1>
           <p className="text-gray-600 text-xl text-center py-5">
