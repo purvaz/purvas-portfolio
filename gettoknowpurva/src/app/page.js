@@ -108,7 +108,7 @@ const TechnologiesSection = () => {
   return (
     <div className="container mx-auto px-10 py-16 flex items-center justify-center min-h-full border-t-2 border-t-gray-400">
       <div className="container mx-auto text-center">
-        <h2 className="text-4xl font-semibold text-center mb-6">Technologies</h2>
+        <h2 className="text-4xl font-semibold text-center mb-6">Technologies and Skills</h2>
         <div className="flex justify-center space-x-10 py-6">
           <Image src={go} width={80} alt="Golang" className="h-1/2" />
           <Image src={vue} width={80} alt="Vue JS" className="h-1/2" />
