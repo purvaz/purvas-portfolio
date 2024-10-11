@@ -88,30 +88,7 @@ const achievements = [
 
 const Achievements = () => {
   return (
-    // <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-10">
-    //   {achievements.map((achievement, index) => (
-    //     <div key={index} className="card w-80 mx-auto">
-    //       <div className="card__content relative w-full h-full text-center transition-transform duration-1000">
-
-    //         {/* Front of the card */}
-
-    //         <div className="card__front flex flex-row items-center justify-between text-white font-bold p-6 h-full shadow-xl rounded-lg" style={{ backgroundColor: achievement.foregroundColor }}>
-    //           <img src={achievement.image} alt={achievement.title} className="w-28 h-28" />
-    //           <h2 className="ml-4 text-2xl" style={{ color: 'textColor' }}>{achievement.title}</h2>
-    //         </div>
-
-
-    //         {/* Back of the card */}
-    //         <div className="card__back flex items-center justify-center text-white font-bold p-6 h-full shadow-xl rounded-lg" style={{ backgroundColor: achievement.backgroundColor }}>
-    //           <p className="text-lg" style={{ color: 'textColor' }}>{achievement.details}</p>
-    //           <h4>{achievement.year}</h4>
-    //         </div>
-
-    //       </div>
-    //     </div>
-    //   ))}
-    // </div>
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-10 p-10">
+    <div className="grid grid-cols-1 md:grid-cols-3 p-10 min-h-screen">
       {achievements.map((achievement, index) => (
         <div key={index} className="card w-80 mx-auto">
           <div className="card__content relative w-full h-full text-center transition-transform duration-1000">

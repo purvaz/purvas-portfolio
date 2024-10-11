@@ -34,8 +34,8 @@ body {
 /* Flip card animation */
 .card {
   perspective: 1000px; /* Increases depth of the flip */
-  height: 200px;
-  width: 400px;
+  height: 230px;
+  width: 420px;
 }
 
 .card__content {
