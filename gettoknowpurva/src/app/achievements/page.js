@@ -88,7 +88,7 @@ const achievements = [
 
 const Achievements = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3 p-10 min-h-screen">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 p-10 min-h-screen">
       {achievements.map((achievement, index) => (
         <div key={index} className="card w-80 mx-auto">
           <div className="card__content relative w-full h-full text-center transition-transform duration-1000">
