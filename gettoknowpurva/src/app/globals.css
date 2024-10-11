@@ -30,3 +30,33 @@ body {
   font-family: "burtons";
   src: url(../../public/Burtons.otf);
 }
+
+/* Flip card animation */
+.card {
+  perspective: 1000px; /* Increases depth of the flip */
+  height: 200px;
+  width: 400px;
+}
+
+.card__content {
+  transform-style: preserve-3d;
+  transition: transform 0.8s ease-in-out;
+}
+
+.card:hover .card__content {
+  transform: rotateY(180deg);
+}
+
+.card__front,
+.card__back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.card__back {
+  transform: rotateY(180deg);
+}

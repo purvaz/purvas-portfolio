@@ -13,6 +13,9 @@ const Navigation = () => {
           <Link href="/projects">
             <button className="btn-nav">Projects</button>
           </Link>
+          <Link href="/achievements">
+            <button className="btn-nav">Achievements</button>
+          </Link>
           <Link href="/contact">
             <button className="btn-nav">Contact Me</button>
           </Link>
