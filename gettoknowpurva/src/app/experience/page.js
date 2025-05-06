@@ -6,6 +6,16 @@ const Experience = () => {
     <div className="experience-page bg-gray-200 min-h-screen">
       <div className="container mx-auto py-20">
         <div className="grid grid-cols-1 gap-10 justify-center">
+        <ExperienceCard
+            companyName="San Francisco State University"
+            yearsOfService="Feb 2023 - June 2023"
+            designation="Research Assistant (Software Engineer)"
+            responsibilities= {["Developed a modular software system for Post-Earthquake Structural Damage Assessment, enabling engineers to identify structural damage with 95% accuracy in a VR environment, reducing on-site visits.",
+              "Built a desktop version with training & assessment modes using Unity and C#, using object-oriented design and reusable components.",
+              "Led a performance enhancement initiative, increasing system speed by 25% and piloted rollout to 50+ users with HMD devices."]}
+            techTags={['Virtual Reality', 'Unity', 'C#', 'OOPs', "HMD", ]}
+            skillTags={['Simulation', 'Problem-Solving', 'User Training', 'Human Research']}
+          />
           <ExperienceCard
             companyName="Google"
             yearsOfService="Feb 2023 - June 2023"
