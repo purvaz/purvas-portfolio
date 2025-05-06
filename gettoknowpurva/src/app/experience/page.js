@@ -8,7 +8,7 @@ const Experience = () => {
         <div className="grid grid-cols-1 gap-10 justify-center">
         <ExperienceCard
             companyName="San Francisco State University"
-            yearsOfService="Feb 2023 - June 2023"
+            yearsOfService="Dec 2023 - Jan 2025"
             designation="Research Assistant (Software Engineer)"
             responsibilities= {["Developed a modular software system for Post-Earthquake Structural Damage Assessment, enabling engineers to identify structural damage with 95% accuracy in a VR environment, reducing on-site visits.",
               "Built a desktop version with training & assessment modes using Unity and C#, using object-oriented design and reusable components.",
